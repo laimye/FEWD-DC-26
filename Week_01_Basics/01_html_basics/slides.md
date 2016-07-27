@@ -1,6 +1,6 @@
 ![GeneralAssemb.ly](../../img/icons/FEWD_Logo.png)
 
-#FEWD - HTML BASICS 
+#FEWD - HTML BASICS
 
 ---
 
@@ -15,15 +15,15 @@
 
 ## And
 
-* Chris Hodges
-* Developer at [Spark](http://www.sparkexperience.com).
-* You can email me anytime: [chris@sparkexperience.com](mailto:chris@sparkexperience.com).
+* Nick Grace
+* Director of UX & Web Development at [JBS International, Inc.](http://www.jbsinternational.com).
+* You can email me anytime: [nickrgrace@gmail.com](mailto:nickrgrace@gmail.com).
 
 ---
 
 ##Agenda
 
-*   Git and Github
+* Git and Github
 *	HTML Tags & CSS Selectors Review
 *	Structure Reading w/ Understanding
 *	External Style Sheets
@@ -171,7 +171,7 @@ links 
 
 ---
 
-##External Style Sheets 
+##External Style Sheets
 
 ---
 
@@ -181,4 +181,3 @@ links 
 ---
 
 ## Homework
-

@@ -1,45 +1,37 @@
 #FEWD Week #1: HTML/CSS Basics
 
-
-<br>
-
 ---
-
 
 ###Description
 
-
-The goal of this first assignement is to identify the different parts of content and apply structure to it. The starter content is an excerpt from Wikipedia's article on the Xia Dynasty of China.  Take this content and apply the appropriate HTML and then give it some basic styling.
-
-There are a few tags already in the content to help with style applications. Take a look at these tags. What do they do?
+The goal of this first assignment is to identify the different parts of content and apply structure to it. The starter content is an excerpt from Wikipedia's article on the Xia Dynasty of China.  Take this content and apply the appropriate HTML and then give it some basic styling.
 
 Styling Suggestions:
-- Make the paragraph text the font "Georgia"
+- Page background should be #F6F6F6
+- Make the paragraph text the font "Georgia" and use a font stack. (Google "Georgia font stack css.")
 - Make the text the color #05080C
-- Make the 1st level of the table of contents larger than the second level
-- Make the 2nd level of the table of contents the color #3344aa
-- Make the H1's all uppercase
+- Set the page's font-size to 18px and set the line height to 1.5
+- Put 5px solid borders at the top and bottom of the page and use the color #222222
+- Float the Via Dynasty image to the right and give it a little margin on the left
+- Give the table header cells (`th`) a background color of #222222
+- Give the table cells (`td`) a background color of #eeeeee
+
 ---
 
-
 ###Real-World Applications
-
 
 - Correctly structure any document be it article, blog post, about page, etc.
 - Style a page using CSS via an external stylesheet
 - Add images to a website to improve SEO
 - Clearly articulate your skills and experience on a content-rich page
-
-
-<br>
+- Handle special characters and foreign language characters
 
 ---
-
 
 ###Technical Requirements
 
 - Link the navigation to the sections of the page using the 'a' tag and id's
-- Use a unique `title` and a single unique `h1` tag
+- Use a unique `title` and unique `h1` tags
 - Show image using `img` tag including unique `alt` attribute
 - Use an external CSS stylesheet to style your pages
 - Select at least 5 elements on the page and apply at least 5 different css properties (`font-size`, `color`, `font-family`, `font-weight`, `text-decoration`) to these elements
@@ -50,9 +42,7 @@ Styling Suggestions:
 #### Bonus
 
 - Experiment by adding additional HTML tags and CSS properties we did not cover in class - explore!
-
-
-<br>
+- Add link colors
 
 ---
 
@@ -60,14 +50,8 @@ Styling Suggestions:
 
 The original wiki page that this article was taken from is https://en.wikipedia.org/wiki/Xia_dynasty.  The HTML that wikipedia uses will be fairly different and more complex than is ideal for the homework.  Feel free to use it for visual ideas.
 
-
-<br>
-
 ---
 
 ###Evaluation / Submission
 
-Students will use the github repository forked during the first class (suggested name is "Week_01_Basics") and push their code to this new repository when they are ready to submit.
-
 The instructional team will grade each technical requirement and provide a numeric grade on a scale: does not meet expectations (0); meets expectations (1); exceeds expectations (2).  The maximum possible score on this assignment is 16/16.
-
