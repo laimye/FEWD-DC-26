@@ -4,32 +4,281 @@
 
 ---
 
+##Agenda
+
+* Download Class 02 Starter Code.
+* Copy keanu/ from the starter code into your course work directory.
+
+---
 
 ##Agenda
 
-*	HTML & External Style Sheet Review
-*	Building A Simple Web Page
-	*	Images
-	*	Nav
-	*	Colors
-	*	Fonts
-	*	Linking To Other Pages
-*	Lab Time
+* Warmup Exercise
+* CSS Intro
+* Color Property
+* Fonts
+* Text
+* Working Locally with CSS
 
 ---
 
-##HTML Basics Review
+##WARMUP - HTML/GITHUB
+
+1. Open keanu/ in SublimeText
+
+2. Mark up copy.txt with HTML in about.html
+
+3. Ensure about.html contains proper structure!
+
+4. Link the .html files (index, about, films) together
 
 ---
 
-![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
-##What Tag Is It?
+##CSS Intro
 
 ---
 
-##Building Websites
+##CSS History
+
+* CSS => Cascading Style Sheets
+* First proposed in 1994 by H&aring;kon Lie ("How Con Lee") - a colleague of Tim Berners-Lee
+* Stylesheet language used to describe HTML markup
+* Allows separation of document content (HTML), from document presentation/styling
+* &rArr; "Separation of concerns"
 
 ---
+
+##CSS Syntax
+
+![CSS Syntax](../../img/class02/css-syntax.png)
+
+* This CSS rule turns the text color of every paragraph, <p>, black
+
+---
+
+##CSS Syntax
+
+![CSS Syntax](../../img/class02/css-syntax-multiple.png)
+
+* One selector can have multiple declarations
+* Common for each declaration to have its own line
+
+---
+
+##CSS Color Property
+
+![Nyan Cat](../../img/class02/css-colors.png)
+
+---
+
+##CSS Proprty: Color
+
+* Colors can be specified using:
+&rArr; "color" keyword - "red"
+&rArr; rgb - rgb(255, 0, 0)
+&rArr; hex codes - #FF0000
+* Can also use: RGBA, HSL, HSLA
+
+---
+
+##CSS Colors - Keyword Property
+
+```
+span { color: red; }
+```
+
+* Simplest; least-descriptive
+* red, green, blue, etc.
+&rArr; <span style="color: tomato">tomato</span>
+&rArr; <span style="color: deeppink">deeppink</span>
+&rArr; <span style="color: chartreuse">chartreuse</span>
+* <a href="http://www.crockford.com/wrrrld/color.html">More colors...</a>
+
+---
+
+##CSS Colors - RGB Property
+
+```
+span { color: rgb(255, 0, 0); }
+```
+
+* More complicated; more powerful!
+* First value is red; second is green; third is blue
+* Each value in a range 0 - 255
+* Values closer together are gray or muted:
+<span style="color: rgb(200,200,200)">rgb(200,200,200)</span> / <span style="color: rgb(155,155,155)">rgb(155,155,155)</span> / <span style="color: rgb(075,075,075)">rgb(075,075,075)</span>
+
+---
+
+##CSS Colors - Hexadecimal Property
+
+```
+p { color: #463DB3 };
+```
+
+* Great blog post "The Code Side of Color": http://www.smashingmagazine.com/2012/10/the-code-side-of-color
+* Extracting Hex Values: from code, or from image using Photoshop / software tool.
+* Adobe Color: https://color.adobe.com
+* Google Material Design: https://material.google.com/style/color.html
+* U.S. Web Design Standards: https://standards.usa.gov/colors/
+
+---
+
+##Fonts
+
+![Fonts](../../img/class02/fonts.jpg)
+
+---
+
+##Font - Various Properties
+
+* font-weight
+&rArr; Sets the "thickness" of the font
+&rArr; normal and <span style="font-weight: bold">bold</span>; values 100 - 900
+* font-style
+Sets a "slant" to the font
+<span style="font-style: normal">normal</span> and <span style="font-style: italic">italic</span>
+* font-size
+&rArr; Sets the "size" of the font
+&rArr; Length values (12px); Percentage (75%)
+
+---
+
+##Font - Font Family Property
+
+```
+p { font-family: 'Comic Sans MS', helvetica, serif };
+```
+
+* font-family
+&rArr; Applies a particular font to the element
+&rArr; Accepts multiple values
+&rArr; Should always end with: serif; sans-serf; monospace;
+
+---
+
+##Text - Various Properties
+
+* text-align
+&rArr; how text is oriented within the containing block
+text-left
+text-center
+text-right
+* text-decoration
+&rArr; controls extra-textual visual emphasis (<u>underline</u>)
+
+```
+a { text-decoration: none; }
+```
+
+---
+
+##Code Along
+
+http://codepen.io/cheshireoctopus/pen/mexgPX?editors=110
+
+---
+
+##Working Locally with CSS
+
+---
+
+##Local CSS
+
+* Three ways to apply CSS to HTML:
+
+1) inline CSS
+
+2) <style> tag inside the <head> tag
+
+3) link to an external file w/ <link> tag
+
+---
+
+##Local CSS - Inline Styles
+
+```
+<p style="color: blue; font-size: 14px;">
+	Keanu Reeves is Johnny Utah
+</p>
+
+<p style="color: blue; text-decoration: underline;">
+	Or is Johnny Utah Keanu Reeves?
+</p>
+```
+
+* Not a good practice
+* Does not separate our concerns (HTML/CSS)
+* Makes debugging difficult
+* ONLY USE IF WRITING HTML EMAILS
+* You will make enemies
+
+---
+
+##Local CSS - <head> Embed
+
+```
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>Super Awesome Website</title>
+		<style type="text/css">
+			h1 {color: red;}
+			p {color: blue; font-size: 14px}
+		</style>
+	</head>
+	<body>
+```
+
+* Better than inline styles
+* Bloats HTML pages
+* Can make debugging large applications difficult
+
+---
+
+##Local CSS - External File via <link>
+
+```
+<!DOCTYPE html>
+ <html>
+ <head>
+ 	 <title>Super Awesome Website</title>
+	 <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ <body>
+```
+
+* Like <title>, links to CSS go in <head>
+* Truly separates HTML from CSS
+* Easiest to debug; just go to your CSS file!
+
+---
+
+##Local CSS - External File via <link>
+
+```
+<link rel="stylesheet" type="text/css" href="style.css">
+```
+
+* rel
+&rArr; Specifies the relationship between the current document and the linked document
+* type
+&rArr; Specifies the media type of the linked document
+* href
+&rArr; Specifies the location of the linked document
+
+---
+
+##CSS <link> Exercise
+
+1. Re-open keanu/ directory
+
+2. Link style.css to all three .html files
+
+3. Begin Lab Work
+
+---
+
 
 ##Images
 
@@ -52,26 +301,26 @@ How would you write the src?
 ![](../../img/unit_1/folder_structure.png)
 
 *	There are different approaches to specifying an image location
-			
+
 ---
 
 ##Images
 
 *	Inside ```webroot```, a relative path could be used:
-	
+
 ####```<img src="images/logo.png">```
 
 ---
 
 ##Images
 Relative Path
-	
+
 ![Parent Folder Structure](../../img/unit_1/folder_structure_parentDirectory.png)
 
 Note:
 
 * Given this folder structure the same image would be ```<img src="../images/logo.png">``
-* 
+*
 Note that ```..``` means to go up a directory, and can be used repeatedly: `../..` would go up two directories.
 
 
@@ -86,7 +335,7 @@ Absolute Path
 Note:
 
 	Absolute URLs start with a `/`, so if we imagine that our `webroot` directory was stored on a server such that the `webroot/index.html` file is accessible at `http://example.com/index.html`, then placing the logo image could be done from any html page with: ```<img src="/images/logo.png">```
-	
+
 The benefit here is that this same ```src``` path works on any html page, no matter what its location, so the same ```img``` tag can be used on both the ```webroot/index.html``` page and the ```webroot/about/index.html``` page.
 
 The downside is that the path only works if the project is stored to a proper location for serving.
@@ -99,7 +348,7 @@ The downside is that the path only works if the project is stored to a proper lo
 Full URL
 
 		<img src="https://ga-core.s3.amazonaws.com/production/uploads/program/default_image/397/thumb_User-Experience-Sketching.jpg">
-		
+
 Note:
 For linking to images, make sure that you have permission to use the image in this way. Even then, it is often better to host a copy of the same image, rather than link to another server, because it reduces dependency.
 
@@ -118,7 +367,7 @@ A piece of text to be used in lieu of the image when the image is unavailable
 
 Using `alt` attributes has the added benefit of giving search engines more linguistic context about the image as it is used on your page.
 
-Reasons an image may not load: 
+Reasons an image may not load:
 
 *	There was a connection error, the browser didn't download the image.
 
@@ -201,7 +450,7 @@ Using a separate CSS file
 Its best practice to put CSS in its own file and link to it from the `<head>`.
 
 ```<link rel="stylesheet" href="style.css">```
-	
+
 Note:
 "The `link` tag needs two attributes: `rel="stylesheet"` and an `href` attribute.
 
@@ -345,7 +594,7 @@ Hex values can be abbreviated to only 3 digits if each digits is doubled. So `#F
 ####```rgb(0,0,0)```
 
 *	The first value is red, the second green, the third blue.
- 
+
 *	Each value can range from 0 to 255, which expresses the same number of color steps as 00 to FF in base-16.
 
 
