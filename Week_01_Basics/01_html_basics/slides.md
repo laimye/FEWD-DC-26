@@ -73,6 +73,46 @@ Copy a repository to your user
 
 ---
 
+##HOW THE INTERNET WORKS
+* Websites are really just collections of files:
+	- HTML
+	- CSS
+	- JavaScript
+
+* Hosted on specialized computers ⇒ servers
+
+* Goals for FEWD:
+
+	1. Create these files
+	2. Organize these files
+	3. Host (serve) these files
+
+---
+
+##WHAT IS HTML, CSS, AND JAVASCRIPT?
+* Plain text files!
+
+* Different file extensions:
+
+HTML => .html
+
+CSS => .css
+
+JavaScript => .js
+
+---
+
+##What does each do?
+
+HTML: Content & Structure
+
+CSS: Style & Visual Design
+
+JavaScript: Interaction & Behavior
+
+---
+
+
 ##HTML Tags & CSS Selectors Review
 
 ---
@@ -96,6 +136,14 @@ The Doctype tells you if the page is HTML5 ready.
 
 Note:
 image retrieved from http://www.onbile.com/info/wp-content/uploads/2013/09/Timeline-of-web-technologies-639x168.jpg on October 1, 2013.
+
+---
+
+##HTML Anatomy
+
+What's the Head?
+
+What's the Body?
 
 ---
 
@@ -164,20 +212,8 @@ links 
 
 ```&lt;a href="Link">```First item```&lt;/a>```
 
----
-
-![GeneralAssemb.ly](../../img/icons/code_along.png)
-##General Assembly Press Release
 
 ---
 
 ##External Style Sheets
 
----
-
-![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
-##Cookie Recipe
-
----
-
-## Homework
