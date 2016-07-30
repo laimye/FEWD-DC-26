@@ -5,7 +5,7 @@ Welcome to Front-End Web Development at General Assembly! This is where we will 
 
 ## Important Links
 * [Homework Submission](https://docs.google.com/forms/d/e/1FAIpQLSe_a1fk4P3HxDFfTdwXJTBZD_sH5XwCTr_i45yntEec4uloxA/viewform) - Submit your homework info here.
-* [Class Exit Ticket](https://docs.google.com/a/generalassemb.ly/forms/d/e/1FAIpQLSe_a1fk4P3HxDFfTdwXJTBZD_sH5XwCTr_i45yntEec4uloxA/viewform) - Send us your feedback here.
+* [Class Exit Ticket](https://goo.gl/forms/te18JZWn4qG0RLDP2) - Send us your feedback here.
 
 
 ## Course Outline (tentative, subject to change)
