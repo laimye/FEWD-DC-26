@@ -215,5 +215,19 @@ links 
 
 ---
 
+
 ##External Style Sheets
 
+---
+
+##Code Along
+
+1. Open Week_01_basics\01_bovine\starter_code\
+2. Open the content.txt and index.html
+3. Populate the HEAD tag with title and CSS Links
+4. Copy the content into index.html and add HTML tags
+
+```&lt;a href="Link">```First item```&lt;/a>```
+
+
+---
