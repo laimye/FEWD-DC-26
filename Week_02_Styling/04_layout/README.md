@@ -9,8 +9,6 @@
 
 *	Experiment and predict effects of floats and clearing CSS positioning.
 
-* Introduce clearfix.
-
 
 
 ###SCHEDULE
