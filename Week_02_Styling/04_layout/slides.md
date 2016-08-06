@@ -20,7 +20,11 @@
 
 ---
 
-![GeneralAssemb.ly](../Assignment/layout_challenge_starter/png/layouts_Page_1.png)
+![Box Model](../../img/class04/box-model.jpg)
+
+---
+
+![Layouts](../Assignment/layout_challenge_starter/png/layouts_Page_1.png)
 
 ---
 
