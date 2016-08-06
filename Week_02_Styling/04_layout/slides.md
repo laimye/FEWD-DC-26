@@ -181,10 +181,48 @@ The following behave exactly like divs:
 
 ---
 
+#Floats
+
+---
+
+##Floats
+
+![Floats](../../class04/floats.jpg)
+
+---
+
+##Floats
+
+```
+.sidebar { float: left; }
+
+.contentarea { float: right; }
+```
+
+---
+
 ![GeneralAssemb.ly](../../img/icons/code_along.png)
 ##Code-Along: Floating Sections
 
 Open ```floating_sections``` in Sublime Text.
+
+---
+
+##Floats
+
+![Floats](../../class04/problem_css_float.jpg)
+
+---
+
+##Floats: Clearfix to the Rescue!
+
+```
+.clearfix:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+```
 
 ---
 
