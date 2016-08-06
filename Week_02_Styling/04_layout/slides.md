@@ -7,14 +7,10 @@
 ##Agenda
 
 *	Review
-<<<<<<< HEAD
-*	HTML5 Structural Elements
-=======
 *	Divs, Classes and IDs
 * Developer Tools
 * Browser Variances
 *	Semantic HTML
->>>>>>> 3b22816e302c4acde3b3c2c6477c007d69e5523a
 *	Floats
 *	Layout Lab
 
@@ -24,12 +20,10 @@
 
 ---
 
-![GeneralAssemb.ly](starter_code/layout_challenge/png/layouts_Page_1.png)
+![GeneralAssemb.ly](../Assignment/layout_challenge_starter/png/layouts_Page_1.png)
 
 ---
 
-<<<<<<< HEAD
-=======
 ##Divs
 
 * HTML div element is a generic container
@@ -119,7 +113,6 @@ Using console:
 * What are the dimensions of the logo? What are the actual dimensions of the file?
 
 ---
->>>>>>> 3b22816e302c4acde3b3c2c6477c007d69e5523a
 
 ##Browser Variances
 
@@ -209,20 +202,20 @@ Open ```relaxr``` in Sublime Text.
 
 ---
 
-![](starter_code/layout_challenge/png/layouts_Page_1.png)
+![](../Assignment/layout_challenge_starter/png/layouts_Page_1.png)
 
 ---
 
-![](starter_code/layout_challenge/png/layouts_Page_2.png)
+![](../Assignment/layout_challenge_starter/png/layouts_Page_2.png)
 
 ---
 
-![](starter_code/layout_challenge/png/layouts_Page_3.png)
+![](../Assignment/layout_challenge_starter/png/layouts_Page_3.png)
 
 ---
 
-![](starter_code/layout_challenge/png/layouts_Page_4.png)
+![](../Assignment/layout_challenge_starter/png/layouts_Page_4.png)
 
 ---
 
-![](starter_code/layout_challenge/png/layouts_Page_5.png)
+![](../Assignment/layout_challenge_starter/png/layouts_Page_5.png)
