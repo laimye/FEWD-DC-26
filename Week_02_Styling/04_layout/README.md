@@ -3,7 +3,6 @@
 
 ###LEARNING OBJECTIVES
 
-
 *	Draw the DOM Tree for web pages containing  ```<div>``` & ```<section>```.
 
 *	Apply header, footer, sidebar, and multi-column layouts to develop a web page.
@@ -33,16 +32,16 @@ Below you will find notes on each section from the proposed schedule above. Thes
 ####Divs, IDs & Classes
 _Time: 30 min_
 
-*	Students learn how to divide content into sections, and use IDs and classes to help with styling. 
+*	Students learn how to divide content into sections, and use IDs and classes to help with styling.
 
 
 |Code Along |[Error Message](solution/error_message)|
 |:-------------|:-------------|
-| __Time__ | 20 min | 
-| __Topics__ | divs, classes, ids | 
+| __Time__ | 20 min |
+| __Topics__ | divs, classes, ids |
 | __Description__| sandbox type activity to show how and when to use Classes, IDs and there selectors.|   
-| __Notes__| When explaining classes and IDs it is important to tell students, when to use classes and when to use ids. Together, add tag attributes, and styling. | 
- 
+| __Notes__| When explaining classes and IDs it is important to tell students, when to use classes and when to use ids. Together, add tag attributes, and styling. |
+
 ===
 
 
@@ -54,11 +53,11 @@ _Time: 60 min_
 
 |Code Along |[Floating Sections](solution/floating_sections) |
 |:------------- |:-------------|
-| __Time__ | 10 min | 
-| __Topics__ | header, aside, footer | 
+| __Time__ | 10 min |
+| __Topics__ | header, aside, footer |
 | __Description__| sandbox activity to demonstrate structural elements. |   
-| __Notes__| This is another opportunity to draw the DOM tree | 
-  
+| __Notes__| This is another opportunity to draw the DOM tree |
+
 
 ===
 
@@ -66,7 +65,7 @@ _Time: 60 min_
 ####Lab Time
 _Time: 45min_
 
-*	The best way to learn floats and clears is to practice. The intention of this lab time is practice and later connect this to a more completely-built page with content. 
+*	The best way to learn floats and clears is to practice. The intention of this lab time is practice and later connect this to a more completely-built page with content.
 
 *	This ties into the process of breaking down a comp for the purposes of building a page and working on discrete sections of HTML & CSS until the full page is built out, thinking modularly.
 
@@ -74,9 +73,9 @@ _Time: 45min_
 |Exercise |[Layout Challenge](starter_code/layout_challenge) |
 |:------------- |:-------------|
 | __Time__| Remainder of class|
-| __Topics__ | floats, clears, structural elements | 
+| __Topics__ | floats, clears, structural elements |
 | __Description__| 5 increasingly difficult layouts students must replicated in code. |    
-| __Notes__| This activity is meant to tie into an overall emphasis in the course on process and building an intuitive sense of abstraction. The particulars of what might go inside each block are unimportant while trying to get the layout to flow properly. We'll leave it to you to think about how you want to introduce students to that notion.| 
+| __Notes__| This activity is meant to tie into an overall emphasis in the course on process and building an intuitive sense of abstraction. The particulars of what might go inside each block are unimportant while trying to get the layout to flow properly. We'll leave it to you to think about how you want to introduce students to that notion.|
 
 ===
 
