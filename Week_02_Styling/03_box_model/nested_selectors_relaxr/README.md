@@ -19,8 +19,6 @@ Use a comma
 #### Select elements that are exact match for both tag AND class combination
 p.myclass {}
 
-#### 
-
 
 ### Requirements and Instructions
 

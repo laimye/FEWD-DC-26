@@ -104,9 +104,12 @@ JavaScript => .js
 
 ##What does each do?
 
+
 HTML: Content & Structure
 
+
 CSS: Style & Visual Design
+
 
 JavaScript: Interaction & Behavior
 

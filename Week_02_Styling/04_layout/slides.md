@@ -7,7 +7,6 @@
 ##Agenda
 
 *	Review
-*	Divs, Classes and IDs
 *	HTML5 Structural Elements
 *	Floats
 *	Lab Time
@@ -20,58 +19,6 @@ What would you like to review?
 
 ---
 
-##Divs
-
-What is a Div?
-
----
-
-
-##class & id
-
-With classes and ids we can target specific elements on a page, so we can manipulate it uniquely.
-
----
-
-##class & id
-
-![](../../img/unit_1/tags_attributes.png)
-
----
-
-
-![GeneralAssemb.ly](../../img/icons/code_along.png)
-##class & id
-
----
-
-##class & id
-
-####IDs are unique
-
-####Classes are not unique
-
----
-
-##class & id
-
-When should you use them?
-
----
-
-##class & id
-
-How to __select__ classes in CSS
-
-```
-.className
-```
-
-```
-#idName
-```
-
----
 
 ##HTML5 Structural Elements
 
