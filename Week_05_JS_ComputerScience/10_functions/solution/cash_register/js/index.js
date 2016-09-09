@@ -5,22 +5,24 @@ var total = 0;
 
 // `enter()` reads the user's input, and updates the receipt
 function enter(event) {
-  
+
   // Set up variables to use
   var entry, currency;
-  
+
   // Prevent form submission
   event.preventDefault();
-  
+
   // Read the user input
   entry = jQuery('#newEntry').val();
-  
+  //console.log(entry);
+
   // Convert to decimal
   entry = parseFloat(entry);
-  
+  console.log(entry);
+
   // Convert to currency
   currency = currencyFormat(entry);
-  
+
   // Add line item to table
   jQuery('#entries').append('<tr><td></td><td>' + currency + '</td></tr>');
 
@@ -54,6 +56,6 @@ function currencyFormat(number) {
 
 
 // When the user submits the form, run the `enter` function
-jQuery(document).ready(function{
+jQuery(document).ready(function(){
   jQuery('#entry').submit(enter);
 });
