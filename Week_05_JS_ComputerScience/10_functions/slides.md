@@ -7,7 +7,7 @@
 ##Agenda
 
 *	Functions
-*	Cash Register
+*	Exercises
 *	Mood Swings
 
 ---
