@@ -134,11 +134,17 @@ What if I would like to know how long my array is (how many elements)?
 ##Iterate Over Array
 
 Allows you to run code using each element from the array as a value
-Syntax:
 
-    for(var q=0;q<myArray.length;q++){
+---
+
+##Iterate Over Array
+
+
+    for(var q=0;q&lt;myArray.length;q++){
         // do something to myArray[q]
     }
+
+
 
 
 ---
@@ -147,8 +153,9 @@ Syntax:
 ##Array Length
 
 	var fruits=[“Banana”,”Apple”,”Pear”]
-		fruits.forEach(function(element,index){
-		console.log(element,index);
+    
+	jQuery.each(fruits,function(index,value){
+		console.log(index,value);
 	});
 
 Note:
@@ -163,8 +170,3 @@ As always, code we want to execute goes between curly braces
 
 For many more Array methods see:https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array
 
-
----
-
-![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
-##Carousel
